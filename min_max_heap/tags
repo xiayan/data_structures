@@ -1,0 +1,235 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AsciiNode	AsciiTree.h	/^        AsciiNode() : value(""), order(0), level(0), edgeL(0), edgeR(0), x(0), left(NULL), right(NULL) {}$/;"	f	struct:AsciiTree::AsciiNode	access:public	signature:()
+AsciiNode	AsciiTree.h	/^    struct AsciiNode {$/;"	s	class:AsciiTree	access:private
+AsciiTree	AsciiTree.cpp	/^AsciiTree::AsciiTree() : root(NULL), ranking(0), offset(0) {$/;"	f	class:AsciiTree	signature:()
+AsciiTree	AsciiTree.h	/^    AsciiTree();$/;"	p	class:AsciiTree	access:public	signature:()
+AsciiTree	AsciiTree.h	/^class AsciiTree {$/;"	c
+AsciiTree::AsciiNode	AsciiTree.h	/^    struct AsciiNode {$/;"	s	class:AsciiTree	access:private
+AsciiTree::AsciiNode::AsciiNode	AsciiTree.h	/^        AsciiNode() : value(""), order(0), level(0), edgeL(0), edgeR(0), x(0), left(NULL), right(NULL) {}$/;"	f	struct:AsciiTree::AsciiNode	access:public	signature:()
+AsciiTree::AsciiNode::edgeL	AsciiTree.h	/^        int edgeL;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::edgeR	AsciiTree.h	/^        int edgeR;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::index	AsciiTree.h	/^        int index;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::left	AsciiTree.h	/^        AsciiNode *left;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::level	AsciiTree.h	/^        int level;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::order	AsciiTree.h	/^        int order;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::right	AsciiTree.h	/^        AsciiNode *right;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::value	AsciiTree.h	/^        std::string value;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiNode::x	AsciiTree.h	/^        int x;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+AsciiTree::AsciiTree	AsciiTree.cpp	/^AsciiTree::AsciiTree() : root(NULL), ranking(0), offset(0) {$/;"	f	class:AsciiTree	signature:()
+AsciiTree::AsciiTree	AsciiTree.h	/^    AsciiTree();$/;"	p	class:AsciiTree	access:public	signature:()
+AsciiTree::assignX	AsciiTree.cpp	/^void AsciiTree::assignX(AsciiNode *t) {$/;"	f	class:AsciiTree	signature:(AsciiNode *t)
+AsciiTree::assignX	AsciiTree.h	/^    void assignX() { inOrder(); assignX(root); }$/;"	f	class:AsciiTree	access:private	signature:()
+AsciiTree::assignX	AsciiTree.h	/^    void assignX(AsciiNode *);  \/\/ use pre order traversal to implement$/;"	p	class:AsciiTree	access:private	signature:(AsciiNode *)
+AsciiTree::buildTree	AsciiTree.cpp	/^AsciiTree::AsciiNode * AsciiTree::buildTree(int *array, int n, int i) {$/;"	f	class:AsciiTree	signature:(int *array, int n, int i)
+AsciiTree::buildTree	AsciiTree.cpp	/^void AsciiTree::buildTree(MinMaxHeap &heap) {$/;"	f	class:AsciiTree	signature:(MinMaxHeap &heap)
+AsciiTree::buildTree	AsciiTree.h	/^    AsciiNode * buildTree(int *array, int n, int i);$/;"	p	class:AsciiTree	access:private	signature:(int *array, int n, int i)
+AsciiTree::buildTree	AsciiTree.h	/^    void buildTree(MinMaxHeap &heap);$/;"	p	class:AsciiTree	access:public	signature:(MinMaxHeap &heap)
+AsciiTree::clear	AsciiTree.cpp	/^void AsciiTree::clear() {$/;"	f	class:AsciiTree	signature:()
+AsciiTree::clear	AsciiTree.cpp	/^void AsciiTree::clear(AsciiNode *t) {$/;"	f	class:AsciiTree	signature:(AsciiNode *t)
+AsciiTree::clear	AsciiTree.h	/^    void clear();$/;"	p	class:AsciiTree	access:private	signature:()
+AsciiTree::clear	AsciiTree.h	/^    void clear(AsciiNode *t);$/;"	p	class:AsciiTree	access:private	signature:(AsciiNode *t)
+AsciiTree::draw	AsciiTree.cpp	/^void AsciiTree::draw() {$/;"	f	class:AsciiTree	signature:()
+AsciiTree::draw	AsciiTree.h	/^    void draw();$/;"	p	class:AsciiTree	access:public	signature:()
+AsciiTree::drawEdges	AsciiTree.cpp	/^void AsciiTree::drawEdges(vector<AsciiNode *> &levelNodes) {$/;"	f	class:AsciiTree	signature:(vector<AsciiNode *> &levelNodes)
+AsciiTree::drawEdges	AsciiTree.h	/^    void drawEdges(vector<AsciiNode *> &);$/;"	p	class:AsciiTree	access:private	signature:(vector<AsciiNode *> &)
+AsciiTree::drawLevel	AsciiTree.cpp	/^void AsciiTree::drawLevel(vector<AsciiNode *> &levelNodes) {$/;"	f	class:AsciiTree	signature:(vector<AsciiNode *> &levelNodes)
+AsciiTree::drawLevel	AsciiTree.h	/^    void drawLevel(vector<AsciiNode *> &);$/;"	p	class:AsciiTree	access:private	signature:(vector<AsciiNode *> &)
+AsciiTree::getOffset	AsciiTree.cpp	/^void AsciiTree::getOffset() {$/;"	f	class:AsciiTree	signature:()
+AsciiTree::getOffset	AsciiTree.h	/^    void getOffset();$/;"	p	class:AsciiTree	access:private	signature:()
+AsciiTree::inOrder	AsciiTree.cpp	/^void AsciiTree::inOrder(AsciiNode *t) {$/;"	f	class:AsciiTree	signature:(AsciiNode *t)
+AsciiTree::inOrder	AsciiTree.h	/^    void inOrder (AsciiNode *);$/;"	p	class:AsciiTree	access:private	signature:(AsciiNode *)
+AsciiTree::inOrder	AsciiTree.h	/^    void inOrder() { inOrder(root); }$/;"	f	class:AsciiTree	access:private	signature:()
+AsciiTree::offset	AsciiTree.h	/^    int offset;$/;"	m	class:AsciiTree	access:private
+AsciiTree::orderToLength	AsciiTree.cpp	/^int  AsciiTree::orderToLength(int o) {$/;"	f	class:AsciiTree	signature:(int o)
+AsciiTree::orderToLength	AsciiTree.h	/^    int  orderToLength(int);$/;"	p	class:AsciiTree	access:private	signature:(int)
+AsciiTree::ranking	AsciiTree.h	/^    int ranking;$/;"	m	class:AsciiTree	access:private
+AsciiTree::root	AsciiTree.h	/^    AsciiNode *root;$/;"	m	class:AsciiTree	access:private
+AsciiTree::xMax	AsciiTree.h	/^    int xMax;$/;"	m	class:AsciiTree	access:private
+AsciiTree::~AsciiTree	AsciiTree.h	/^    ~AsciiTree() { clear(); }$/;"	f	class:AsciiTree	access:public	signature:()
+CFLAGS	makefile	/^CFLAGS = -c -Wall$/;"	m
+CXX	makefile	/^CXX = g++$/;"	m
+DEFAULT_CAPACITY	MinMaxHeap.h	/^	static const int DEFAULT_CAPACITY = 10000;$/;"	m	class:MinMaxHeap	access:private
+EXECUTABLE	makefile	/^EXECUTABLE = lab9$/;"	m
+LDFLAGS	makefile	/^LDFLAGS =$/;"	m
+MinMaxHeap	MinMaxHeap.cpp	/^MinMaxHeap::MinMaxHeap(ifstream &is) : size(0) {$/;"	f	class:MinMaxHeap	signature:(ifstream &is)
+MinMaxHeap	MinMaxHeap.cpp	/^MinMaxHeap::MinMaxHeap(int *data, int n) : size(n) {$/;"	f	class:MinMaxHeap	signature:(int *data, int n)
+MinMaxHeap	MinMaxHeap.h	/^	MinMaxHeap(int *data, int n);$/;"	p	class:MinMaxHeap	access:public	signature:(int *data, int n)
+MinMaxHeap	MinMaxHeap.h	/^    MinMaxHeap(ifstream &is);$/;"	p	class:MinMaxHeap	access:public	signature:(ifstream &is)
+MinMaxHeap	MinMaxHeap.h	/^class MinMaxHeap {$/;"	c
+MinMaxHeap::DEFAULT_CAPACITY	MinMaxHeap.h	/^	static const int DEFAULT_CAPACITY = 10000;$/;"	m	class:MinMaxHeap	access:private
+MinMaxHeap::MinMaxHeap	MinMaxHeap.cpp	/^MinMaxHeap::MinMaxHeap(ifstream &is) : size(0) {$/;"	f	class:MinMaxHeap	signature:(ifstream &is)
+MinMaxHeap::MinMaxHeap	MinMaxHeap.cpp	/^MinMaxHeap::MinMaxHeap(int *data, int n) : size(n) {$/;"	f	class:MinMaxHeap	signature:(int *data, int n)
+MinMaxHeap::MinMaxHeap	MinMaxHeap.h	/^	MinMaxHeap(int *data, int n);$/;"	p	class:MinMaxHeap	access:public	signature:(int *data, int n)
+MinMaxHeap::MinMaxHeap	MinMaxHeap.h	/^    MinMaxHeap(ifstream &is);$/;"	p	class:MinMaxHeap	access:public	signature:(ifstream &is)
+MinMaxHeap::array	MinMaxHeap.h	/^	int* array;$/;"	m	class:MinMaxHeap	access:private
+MinMaxHeap::atMinLevel	MinMaxHeap.cpp	/^bool MinMaxHeap::atMinLevel(int i) {$/;"	f	class:MinMaxHeap	signature:(int i)
+MinMaxHeap::atMinLevel	MinMaxHeap.h	/^	bool atMinLevel(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+MinMaxHeap::buildHeap	MinMaxHeap.cpp	/^void MinMaxHeap::buildHeap() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::buildHeap	MinMaxHeap.h	/^	void buildHeap();$/;"	p	class:MinMaxHeap	access:private	signature:()
+MinMaxHeap::check	MinMaxHeap.cpp	/^bool MinMaxHeap::check() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::check	MinMaxHeap.h	/^    bool check();$/;"	p	class:MinMaxHeap	access:private	signature:()
+MinMaxHeap::debugHeap	MinMaxHeap.cpp	/^void MinMaxHeap::debugHeap(int c, int a) {$/;"	f	class:MinMaxHeap	signature:(int c, int a)
+MinMaxHeap::debugHeap	MinMaxHeap.h	/^    void debugHeap(int c, int a = -1);$/;"	p	class:MinMaxHeap	access:private	signature:(int c, int a = -1)
+MinMaxHeap::deleteMax	MinMaxHeap.cpp	/^void MinMaxHeap::deleteMax() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::deleteMax	MinMaxHeap.h	/^	void deleteMax();$/;"	p	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::deleteMin	MinMaxHeap.cpp	/^void MinMaxHeap::deleteMin() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::deleteMin	MinMaxHeap.h	/^	void deleteMin();$/;"	p	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::findMax	MinMaxHeap.cpp	/^int MinMaxHeap::findMax() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::findMax	MinMaxHeap.h	/^	int  findMax();$/;"	p	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::findMaxChild	MinMaxHeap.cpp	/^int MinMaxHeap::findMaxChild(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+MinMaxHeap::findMaxChild	MinMaxHeap.h	/^	int  findMaxChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+MinMaxHeap::findMin	MinMaxHeap.cpp	/^int MinMaxHeap::findMin() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::findMin	MinMaxHeap.h	/^	int  findMin();$/;"	p	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::findMinChild	MinMaxHeap.cpp	/^int MinMaxHeap::findMinChild(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+MinMaxHeap::findMinChild	MinMaxHeap.h	/^	int  findMinChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+MinMaxHeap::getFirstGrandChild	MinMaxHeap.cpp	/^int MinMaxHeap::getFirstGrandChild(int parent) {$/;"	f	class:MinMaxHeap	signature:(int parent)
+MinMaxHeap::getFirstGrandChild	MinMaxHeap.h	/^    int  getFirstGrandChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+MinMaxHeap::getGrandParent	MinMaxHeap.cpp	/^int MinMaxHeap::getGrandParent(int child) {$/;"	f	class:MinMaxHeap	signature:(int child)
+MinMaxHeap::getGrandParent	MinMaxHeap.h	/^	int  getGrandParent(int child);$/;"	p	class:MinMaxHeap	access:private	signature:(int child)
+MinMaxHeap::getParent	MinMaxHeap.cpp	/^int MinMaxHeap::getParent(int child) {$/;"	f	class:MinMaxHeap	signature:(int child)
+MinMaxHeap::getParent	MinMaxHeap.h	/^	int  getParent(int child);$/;"	p	class:MinMaxHeap	access:private	signature:(int child)
+MinMaxHeap::getSize	MinMaxHeap.h	/^    int  getSize() { return size; }$/;"	f	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::hasLeftChild	MinMaxHeap.cpp	/^bool MinMaxHeap::hasLeftChild(int parent) {$/;"	f	class:MinMaxHeap	signature:(int parent)
+MinMaxHeap::hasLeftChild	MinMaxHeap.h	/^	bool hasLeftChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+MinMaxHeap::hasRightChild	MinMaxHeap.cpp	/^bool MinMaxHeap::hasRightChild(int parent) {$/;"	f	class:MinMaxHeap	signature:(int parent)
+MinMaxHeap::hasRightChild	MinMaxHeap.h	/^    bool hasRightChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+MinMaxHeap::heapSum	MinMaxHeap.cpp	/^unsigned long MinMaxHeap::heapSum() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::heapSum	MinMaxHeap.h	/^    unsigned long heapSum();$/;"	p	class:MinMaxHeap	access:private	signature:()
+MinMaxHeap::insert	MinMaxHeap.cpp	/^void MinMaxHeap::insert(int item) {$/;"	f	class:MinMaxHeap	signature:(int item)
+MinMaxHeap::insert	MinMaxHeap.h	/^	void insert(int item);$/;"	p	class:MinMaxHeap	access:public	signature:(int item)
+MinMaxHeap::isEmpty	MinMaxHeap.cpp	/^bool MinMaxHeap::isEmpty() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::isEmpty	MinMaxHeap.h	/^	bool isEmpty();$/;"	p	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::isFull	MinMaxHeap.cpp	/^bool MinMaxHeap::isFull() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::isFull	MinMaxHeap.h	/^    bool isFull();$/;"	p	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::isGrandChild	MinMaxHeap.cpp	/^bool MinMaxHeap::isGrandChild(int child, int parent) {$/;"	f	class:MinMaxHeap	signature:(int child, int parent)
+MinMaxHeap::isGrandChild	MinMaxHeap.h	/^	bool isGrandChild(int child, int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int child, int parent)
+MinMaxHeap::isLeaf	MinMaxHeap.cpp	/^bool MinMaxHeap::isLeaf(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+MinMaxHeap::isLeaf	MinMaxHeap.h	/^    bool isLeaf(int idx); \/\/$/;"	p	class:MinMaxHeap	access:private	signature:(int idx)
+MinMaxHeap::levelOrder	MinMaxHeap.cpp	/^void MinMaxHeap::levelOrder() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::levelOrder	MinMaxHeap.h	/^	void levelOrder();$/;"	p	class:MinMaxHeap	access:public	signature:()
+MinMaxHeap::percolateDown	MinMaxHeap.cpp	/^void MinMaxHeap::percolateDown(int i) {$/;"	f	class:MinMaxHeap	signature:(int i)
+MinMaxHeap::percolateDown	MinMaxHeap.h	/^	void percolateDown(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+MinMaxHeap::percolateDownMax	MinMaxHeap.cpp	/^void MinMaxHeap::percolateDownMax(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+MinMaxHeap::percolateDownMax	MinMaxHeap.h	/^	void percolateDownMax(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+MinMaxHeap::percolateDownMin	MinMaxHeap.cpp	/^void MinMaxHeap::percolateDownMin(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+MinMaxHeap::percolateDownMin	MinMaxHeap.h	/^	void percolateDownMin(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+MinMaxHeap::size	MinMaxHeap.h	/^	int size;$/;"	m	class:MinMaxHeap	access:private
+MinMaxHeap::swimMax	MinMaxHeap.cpp	/^void MinMaxHeap::swimMax() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::swimMax	MinMaxHeap.h	/^	void swimMax();$/;"	p	class:MinMaxHeap	access:private	signature:()
+MinMaxHeap::swimMin	MinMaxHeap.cpp	/^void MinMaxHeap::swimMin() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::swimMin	MinMaxHeap.h	/^	void swimMin();$/;"	p	class:MinMaxHeap	access:private	signature:()
+MinMaxHeap::~MinMaxHeap	MinMaxHeap.cpp	/^MinMaxHeap::~MinMaxHeap() {$/;"	f	class:MinMaxHeap	signature:()
+MinMaxHeap::~MinMaxHeap	MinMaxHeap.h	/^	~MinMaxHeap();$/;"	p	class:MinMaxHeap	access:public	signature:()
+OBJS	makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	makefile	/^SRCS = main.cpp MinMaxHeap.cpp AsciiTree.cpp$/;"	m
+YANXIA_LAB9_ASCIITREE_H_	AsciiTree.h	/^#define YANXIA_LAB9_ASCIITREE_H_$/;"	d
+YANXIA_LAB9_MINMAXHEAP_H_	MinMaxHeap.h	/^#define YANXIA_LAB9_MINMAXHEAP_H_$/;"	d
+array	MinMaxHeap.h	/^	int* array;$/;"	m	class:MinMaxHeap	access:private
+assignX	AsciiTree.cpp	/^void AsciiTree::assignX(AsciiNode *t) {$/;"	f	class:AsciiTree	signature:(AsciiNode *t)
+assignX	AsciiTree.h	/^    void assignX() { inOrder(); assignX(root); }$/;"	f	class:AsciiTree	access:private	signature:()
+assignX	AsciiTree.h	/^    void assignX(AsciiNode *);  \/\/ use pre order traversal to implement$/;"	p	class:AsciiTree	access:private	signature:(AsciiNode *)
+atMinLevel	MinMaxHeap.cpp	/^bool MinMaxHeap::atMinLevel(int i) {$/;"	f	class:MinMaxHeap	signature:(int i)
+atMinLevel	MinMaxHeap.h	/^	bool atMinLevel(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+buildHeap	MinMaxHeap.cpp	/^void MinMaxHeap::buildHeap() {$/;"	f	class:MinMaxHeap	signature:()
+buildHeap	MinMaxHeap.h	/^	void buildHeap();$/;"	p	class:MinMaxHeap	access:private	signature:()
+buildTree	AsciiTree.cpp	/^AsciiTree::AsciiNode * AsciiTree::buildTree(int *array, int n, int i) {$/;"	f	class:AsciiTree	signature:(int *array, int n, int i)
+buildTree	AsciiTree.cpp	/^void AsciiTree::buildTree(MinMaxHeap &heap) {$/;"	f	class:AsciiTree	signature:(MinMaxHeap &heap)
+buildTree	AsciiTree.h	/^    AsciiNode * buildTree(int *array, int n, int i);$/;"	p	class:AsciiTree	access:private	signature:(int *array, int n, int i)
+buildTree	AsciiTree.h	/^    void buildTree(MinMaxHeap &heap);$/;"	p	class:AsciiTree	access:public	signature:(MinMaxHeap &heap)
+check	MinMaxHeap.cpp	/^bool MinMaxHeap::check() {$/;"	f	class:MinMaxHeap	signature:()
+check	MinMaxHeap.h	/^    bool check();$/;"	p	class:MinMaxHeap	access:private	signature:()
+clear	AsciiTree.cpp	/^void AsciiTree::clear() {$/;"	f	class:AsciiTree	signature:()
+clear	AsciiTree.cpp	/^void AsciiTree::clear(AsciiNode *t) {$/;"	f	class:AsciiTree	signature:(AsciiNode *t)
+clear	AsciiTree.h	/^    void clear();$/;"	p	class:AsciiTree	access:private	signature:()
+clear	AsciiTree.h	/^    void clear(AsciiNode *t);$/;"	p	class:AsciiTree	access:private	signature:(AsciiNode *t)
+debugHeap	MinMaxHeap.cpp	/^void MinMaxHeap::debugHeap(int c, int a) {$/;"	f	class:MinMaxHeap	signature:(int c, int a)
+debugHeap	MinMaxHeap.h	/^    void debugHeap(int c, int a = -1);$/;"	p	class:MinMaxHeap	access:private	signature:(int c, int a = -1)
+deleteMax	MinMaxHeap.cpp	/^void MinMaxHeap::deleteMax() {$/;"	f	class:MinMaxHeap	signature:()
+deleteMax	MinMaxHeap.h	/^	void deleteMax();$/;"	p	class:MinMaxHeap	access:public	signature:()
+deleteMin	MinMaxHeap.cpp	/^void MinMaxHeap::deleteMin() {$/;"	f	class:MinMaxHeap	signature:()
+deleteMin	MinMaxHeap.h	/^	void deleteMin();$/;"	p	class:MinMaxHeap	access:public	signature:()
+draw	AsciiTree.cpp	/^void AsciiTree::draw() {$/;"	f	class:AsciiTree	signature:()
+draw	AsciiTree.h	/^    void draw();$/;"	p	class:AsciiTree	access:public	signature:()
+drawEdges	AsciiTree.cpp	/^void AsciiTree::drawEdges(vector<AsciiNode *> &levelNodes) {$/;"	f	class:AsciiTree	signature:(vector<AsciiNode *> &levelNodes)
+drawEdges	AsciiTree.h	/^    void drawEdges(vector<AsciiNode *> &);$/;"	p	class:AsciiTree	access:private	signature:(vector<AsciiNode *> &)
+drawLevel	AsciiTree.cpp	/^void AsciiTree::drawLevel(vector<AsciiNode *> &levelNodes) {$/;"	f	class:AsciiTree	signature:(vector<AsciiNode *> &levelNodes)
+drawLevel	AsciiTree.h	/^    void drawLevel(vector<AsciiNode *> &);$/;"	p	class:AsciiTree	access:private	signature:(vector<AsciiNode *> &)
+edgeL	AsciiTree.h	/^        int edgeL;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+edgeR	AsciiTree.h	/^        int edgeR;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+findMax	MinMaxHeap.cpp	/^int MinMaxHeap::findMax() {$/;"	f	class:MinMaxHeap	signature:()
+findMax	MinMaxHeap.h	/^	int  findMax();$/;"	p	class:MinMaxHeap	access:public	signature:()
+findMaxChild	MinMaxHeap.cpp	/^int MinMaxHeap::findMaxChild(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+findMaxChild	MinMaxHeap.h	/^	int  findMaxChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+findMin	MinMaxHeap.cpp	/^int MinMaxHeap::findMin() {$/;"	f	class:MinMaxHeap	signature:()
+findMin	MinMaxHeap.h	/^	int  findMin();$/;"	p	class:MinMaxHeap	access:public	signature:()
+findMinChild	MinMaxHeap.cpp	/^int MinMaxHeap::findMinChild(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+findMinChild	MinMaxHeap.h	/^	int  findMinChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+generateResults	main.cpp	/^void generateResults(MinMaxHeap &h, AsciiTree &t) {$/;"	f	signature:(MinMaxHeap &h, AsciiTree &t)
+generateResults	main.cpp	/^void generateResults(MinMaxHeap &h, AsciiTree &t);$/;"	p	file:	signature:(MinMaxHeap &h, AsciiTree &t)
+getFirstGrandChild	MinMaxHeap.cpp	/^int MinMaxHeap::getFirstGrandChild(int parent) {$/;"	f	class:MinMaxHeap	signature:(int parent)
+getFirstGrandChild	MinMaxHeap.h	/^    int  getFirstGrandChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+getGrandParent	MinMaxHeap.cpp	/^int MinMaxHeap::getGrandParent(int child) {$/;"	f	class:MinMaxHeap	signature:(int child)
+getGrandParent	MinMaxHeap.h	/^	int  getGrandParent(int child);$/;"	p	class:MinMaxHeap	access:private	signature:(int child)
+getOffset	AsciiTree.cpp	/^void AsciiTree::getOffset() {$/;"	f	class:AsciiTree	signature:()
+getOffset	AsciiTree.h	/^    void getOffset();$/;"	p	class:AsciiTree	access:private	signature:()
+getParent	MinMaxHeap.cpp	/^int MinMaxHeap::getParent(int child) {$/;"	f	class:MinMaxHeap	signature:(int child)
+getParent	MinMaxHeap.h	/^	int  getParent(int child);$/;"	p	class:MinMaxHeap	access:private	signature:(int child)
+getSize	MinMaxHeap.h	/^    int  getSize() { return size; }$/;"	f	class:MinMaxHeap	access:public	signature:()
+hasLeftChild	MinMaxHeap.cpp	/^bool MinMaxHeap::hasLeftChild(int parent) {$/;"	f	class:MinMaxHeap	signature:(int parent)
+hasLeftChild	MinMaxHeap.h	/^	bool hasLeftChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+hasRightChild	MinMaxHeap.cpp	/^bool MinMaxHeap::hasRightChild(int parent) {$/;"	f	class:MinMaxHeap	signature:(int parent)
+hasRightChild	MinMaxHeap.h	/^    bool hasRightChild(int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int parent)
+heapSum	MinMaxHeap.cpp	/^unsigned long MinMaxHeap::heapSum() {$/;"	f	class:MinMaxHeap	signature:()
+heapSum	MinMaxHeap.h	/^    unsigned long heapSum();$/;"	p	class:MinMaxHeap	access:private	signature:()
+inOrder	AsciiTree.cpp	/^void AsciiTree::inOrder(AsciiNode *t) {$/;"	f	class:AsciiTree	signature:(AsciiNode *t)
+inOrder	AsciiTree.h	/^    void inOrder (AsciiNode *);$/;"	p	class:AsciiTree	access:private	signature:(AsciiNode *)
+inOrder	AsciiTree.h	/^    void inOrder() { inOrder(root); }$/;"	f	class:AsciiTree	access:private	signature:()
+index	AsciiTree.h	/^        int index;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+insert	MinMaxHeap.cpp	/^void MinMaxHeap::insert(int item) {$/;"	f	class:MinMaxHeap	signature:(int item)
+insert	MinMaxHeap.h	/^	void insert(int item);$/;"	p	class:MinMaxHeap	access:public	signature:(int item)
+isEmpty	MinMaxHeap.cpp	/^bool MinMaxHeap::isEmpty() {$/;"	f	class:MinMaxHeap	signature:()
+isEmpty	MinMaxHeap.h	/^	bool isEmpty();$/;"	p	class:MinMaxHeap	access:public	signature:()
+isFull	MinMaxHeap.cpp	/^bool MinMaxHeap::isFull() {$/;"	f	class:MinMaxHeap	signature:()
+isFull	MinMaxHeap.h	/^    bool isFull();$/;"	p	class:MinMaxHeap	access:public	signature:()
+isGrandChild	MinMaxHeap.cpp	/^bool MinMaxHeap::isGrandChild(int child, int parent) {$/;"	f	class:MinMaxHeap	signature:(int child, int parent)
+isGrandChild	MinMaxHeap.h	/^	bool isGrandChild(int child, int parent);$/;"	p	class:MinMaxHeap	access:private	signature:(int child, int parent)
+isLeaf	MinMaxHeap.cpp	/^bool MinMaxHeap::isLeaf(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+isLeaf	MinMaxHeap.h	/^    bool isLeaf(int idx); \/\/$/;"	p	class:MinMaxHeap	access:private	signature:(int idx)
+left	AsciiTree.h	/^        AsciiNode *left;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+level	AsciiTree.h	/^        int level;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+levelOrder	MinMaxHeap.cpp	/^void MinMaxHeap::levelOrder() {$/;"	f	class:MinMaxHeap	signature:()
+levelOrder	MinMaxHeap.h	/^	void levelOrder();$/;"	p	class:MinMaxHeap	access:public	signature:()
+main	main.cpp	/^int main() {$/;"	f	signature:()
+main	test.cpp	/^int main() {$/;"	f	signature:()
+multipleSpaces	AsciiTree.cpp	/^string multipleSpaces(int n) {$/;"	f	signature:(int n)
+offset	AsciiTree.h	/^    int offset;$/;"	m	class:AsciiTree	access:private
+order	AsciiTree.h	/^        int order;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+orderToLength	AsciiTree.cpp	/^int  AsciiTree::orderToLength(int o) {$/;"	f	class:AsciiTree	signature:(int o)
+orderToLength	AsciiTree.h	/^    int  orderToLength(int);$/;"	p	class:AsciiTree	access:private	signature:(int)
+percolateDown	MinMaxHeap.cpp	/^void MinMaxHeap::percolateDown(int i) {$/;"	f	class:MinMaxHeap	signature:(int i)
+percolateDown	MinMaxHeap.h	/^	void percolateDown(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+percolateDownMax	MinMaxHeap.cpp	/^void MinMaxHeap::percolateDownMax(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+percolateDownMax	MinMaxHeap.h	/^	void percolateDownMax(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+percolateDownMin	MinMaxHeap.cpp	/^void MinMaxHeap::percolateDownMin(int idx) {$/;"	f	class:MinMaxHeap	signature:(int idx)
+percolateDownMin	MinMaxHeap.h	/^	void percolateDownMin(int i);$/;"	p	class:MinMaxHeap	access:private	signature:(int i)
+printProgBar	test.cpp	/^void printProgBar(int percent, int c, int total) {$/;"	f	signature:(int percent, int c, int total)
+printProgBar	test.cpp	/^void printProgBar(int percent, int c, int total);$/;"	p	file:	signature:(int percent, int c, int total)
+ranking	AsciiTree.h	/^    int ranking;$/;"	m	class:AsciiTree	access:private
+right	AsciiTree.h	/^        AsciiNode *right;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+root	AsciiTree.h	/^    AsciiNode *root;$/;"	m	class:AsciiTree	access:private
+size	MinMaxHeap.h	/^	int size;$/;"	m	class:MinMaxHeap	access:private
+swimMax	MinMaxHeap.cpp	/^void MinMaxHeap::swimMax() {$/;"	f	class:MinMaxHeap	signature:()
+swimMax	MinMaxHeap.h	/^	void swimMax();$/;"	p	class:MinMaxHeap	access:private	signature:()
+swimMin	MinMaxHeap.cpp	/^void MinMaxHeap::swimMin() {$/;"	f	class:MinMaxHeap	signature:()
+swimMin	MinMaxHeap.h	/^	void swimMin();$/;"	p	class:MinMaxHeap	access:private	signature:()
+value	AsciiTree.h	/^        std::string value;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+x	AsciiTree.h	/^        int x;$/;"	m	struct:AsciiTree::AsciiNode	access:public
+xMax	AsciiTree.h	/^    int xMax;$/;"	m	class:AsciiTree	access:private
+~AsciiTree	AsciiTree.h	/^    ~AsciiTree() { clear(); }$/;"	f	class:AsciiTree	access:public	signature:()
+~MinMaxHeap	MinMaxHeap.cpp	/^MinMaxHeap::~MinMaxHeap() {$/;"	f	class:MinMaxHeap	signature:()
+~MinMaxHeap	MinMaxHeap.h	/^	~MinMaxHeap();$/;"	p	class:MinMaxHeap	access:public	signature:()

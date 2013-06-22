@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BNode	BNode.h	/^class BNode {	$/;"	c
+BNode::content	BNode.h	/^    string content;$/;"	m	class:BNode	access:public
+BNode::f_child	BNode.h	/^                        f_child(NULL), next(NULL), \\$/;"	p	class:BNode	access:public	signature:(NULL)
+BNode::f_child	BNode.h	/^    BNode *f_child;$/;"	m	class:BNode	access:public
+BNode::key	BNode.h	/^    int key;$/;"	m	class:BNode	access:public
+BNode::l_sib	BNode.h	/^    BNode *l_sib;$/;"	m	class:BNode	access:public
+BNode::len	BNode.h	/^    int len;$/;"	m	class:BNode	access:public
+BNode::level	BNode.h	/^    int level;$/;"	m	class:BNode	access:public
+BNode::next	BNode.h	/^                        f_child(NULL), next(NULL), \\$/;"	p	class:BNode	access:public	signature:(NULL)
+BNode::next	BNode.h	/^    BNode *next;$/;"	m	class:BNode	access:public
+BNode::order	BNode.h	/^    int order;$/;"	m	class:BNode	access:public
+BNode::r_sib	BNode.h	/^    BNode *r_sib;$/;"	m	class:BNode	access:public
+BNode::x	BNode.h	/^    int x;$/;"	m	class:BNode	access:public
+BinomialQueue	BinomialQueue.cpp	/^BinomialQueue::BinomialQueue() : q(NULL) { }$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue	BinomialQueue.cpp	/^BinomialQueue::BinomialQueue(int v) {$/;"	f	class:BinomialQueue	signature:(int v)
+BinomialQueue	BinomialQueue.h	/^	BinomialQueue();$/;"	p	class:BinomialQueue	access:public	signature:()
+BinomialQueue	BinomialQueue.h	/^    BinomialQueue(int v);$/;"	p	class:BinomialQueue	access:public	signature:(int v)
+BinomialQueue	BinomialQueue.h	/^class BinomialQueue {$/;"	c
+BinomialQueue::BinomialQueue	BinomialQueue.cpp	/^BinomialQueue::BinomialQueue() : q(NULL) { }$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::BinomialQueue	BinomialQueue.cpp	/^BinomialQueue::BinomialQueue(int v) {$/;"	f	class:BinomialQueue	signature:(int v)
+BinomialQueue::BinomialQueue	BinomialQueue.h	/^	BinomialQueue();$/;"	p	class:BinomialQueue	access:public	signature:()
+BinomialQueue::BinomialQueue	BinomialQueue.h	/^    BinomialQueue(int v);$/;"	p	class:BinomialQueue	access:public	signature:(int v)
+BinomialQueue::append	BinomialQueue.cpp	/^void BinomialQueue::append(BNode *a) {$/;"	f	class:BinomialQueue	signature:(BNode *a)
+BinomialQueue::append	BinomialQueue.h	/^    void append(BNode *v);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *v)
+BinomialQueue::assignX	BinomialQueue.cpp	/^int BinomialQueue::assignX(BNode *t) {$/;"	f	class:BinomialQueue	signature:(BNode *t)
+BinomialQueue::assignX	BinomialQueue.h	/^    int  assignX(BNode *t);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *t)
+BinomialQueue::combine	BinomialQueue.cpp	/^void BinomialQueue::combine(BNode *a, BNode *b, BNode *c) {$/;"	f	class:BinomialQueue	signature:(BNode *a, BNode *b, BNode *c)
+BinomialQueue::combine	BinomialQueue.h	/^    void combine(BNode *v, BNode *w, BNode *c);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *v, BNode *w, BNode *c)
+BinomialQueue::deleteMin	BinomialQueue.cpp	/^int BinomialQueue::deleteMin() {$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::deleteMin	BinomialQueue.h	/^	int  deleteMin();$/;"	p	class:BinomialQueue	access:public	signature:()
+BinomialQueue::findMin	BinomialQueue.cpp	/^int BinomialQueue::findMin() {$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::findMin	BinomialQueue.h	/^	int  findMin();$/;"	p	class:BinomialQueue	access:public	signature:()
+BinomialQueue::insert	BinomialQueue.cpp	/^void BinomialQueue::insert(int v) {$/;"	f	class:BinomialQueue	signature:(int v)
+BinomialQueue::insert	BinomialQueue.h	/^	void insert(int v);$/;"	p	class:BinomialQueue	access:public	signature:(int v)
+BinomialQueue::isEmpty	BinomialQueue.cpp	/^bool BinomialQueue::isEmpty() {$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::isEmpty	BinomialQueue.h	/^	bool isEmpty();$/;"	p	class:BinomialQueue	access:public	signature:()
+BinomialQueue::levelOrder	BinomialQueue.cpp	/^void BinomialQueue::levelOrder() {$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::levelOrder	BinomialQueue.h	/^    void levelOrder();$/;"	p	class:BinomialQueue	access:public	signature:()
+BinomialQueue::makeEmpty	BinomialQueue.cpp	/^void BinomialQueue::makeEmpty() {$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::makeEmpty	BinomialQueue.cpp	/^void BinomialQueue::makeEmpty(BNode *&t) {$/;"	f	class:BinomialQueue	signature:(BNode *&t)
+BinomialQueue::makeEmpty	BinomialQueue.h	/^	void makeEmpty();$/;"	p	class:BinomialQueue	access:public	signature:()
+BinomialQueue::makeEmpty	BinomialQueue.h	/^    void makeEmpty(BNode *&t);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *&t)
+BinomialQueue::meld	BinomialQueue.cpp	/^BNode * BinomialQueue::meld(BNode *a, BNode *b) {$/;"	f	class:BinomialQueue	signature:(BNode *a, BNode *b)
+BinomialQueue::meld	BinomialQueue.h	/^    BNode * meld(BNode *a, BNode *b);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *a, BNode *b)
+BinomialQueue::merge	BinomialQueue.cpp	/^void BinomialQueue::merge(BinomialQueue &rhs) {$/;"	f	class:BinomialQueue	signature:(BinomialQueue &rhs)
+BinomialQueue::merge	BinomialQueue.h	/^    void merge(BinomialQueue &rhs);$/;"	p	class:BinomialQueue	access:public	signature:(BinomialQueue &rhs)
+BinomialQueue::minTree	BinomialQueue.cpp	/^BNode * BinomialQueue::minTree() {$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::minTree	BinomialQueue.h	/^    BNode * minTree();$/;"	p	class:BinomialQueue	access:private	signature:()
+BinomialQueue::q	BinomialQueue.h	/^    BNode *q;$/;"	m	class:BinomialQueue	access:private
+BinomialQueue::removeTree	BinomialQueue.cpp	/^void BinomialQueue::removeTree(BNode *v, BinomialQueue &Q) {$/;"	f	class:BinomialQueue	signature:(BNode *v, BinomialQueue &Q)
+BinomialQueue::removeTree	BinomialQueue.h	/^    void removeTree(BNode *v, BinomialQueue &Q);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *v, BinomialQueue &Q)
+BinomialQueue::reset	BinomialQueue.cpp	/^void BinomialQueue::reset(BNode *t) {$/;"	f	class:BinomialQueue	signature:(BNode *t)
+BinomialQueue::reset	BinomialQueue.h	/^    void reset(BNode *t);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *t)
+BinomialQueue::~BinomialQueue	BinomialQueue.cpp	/^BinomialQueue::~BinomialQueue() { makeEmpty(); }$/;"	f	class:BinomialQueue	signature:()
+BinomialQueue::~BinomialQueue	BinomialQueue.h	/^	~BinomialQueue();$/;"	p	class:BinomialQueue	access:public	signature:()
+CFLAGS	makefile	/^CFLAGS = -c -Wall$/;"	m
+CXX	makefile	/^CXX = g++$/;"	m
+EXECUTABLE	makefile	/^EXECUTABLE = lab11$/;"	m
+LDFLAGS	makefile	/^LDFLAGS =$/;"	m
+OBJS	makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	makefile	/^SRCS = main.cpp BinomialQueue.cpp TQueue.cpp$/;"	m
+TQueue	TQueue.cpp	/^TQueue::TQueue() : s(0) {$/;"	f	class:TQueue	signature:()
+TQueue	TQueue.h	/^	TQueue();$/;"	p	class:TQueue	access:public	signature:()
+TQueue	TQueue.h	/^class TQueue {	$/;"	c
+TQueue::TQueue	TQueue.cpp	/^TQueue::TQueue() : s(0) {$/;"	f	class:TQueue	signature:()
+TQueue::TQueue	TQueue.h	/^	TQueue();$/;"	p	class:TQueue	access:public	signature:()
+TQueue::first	TQueue.h	/^    BNode *first;$/;"	m	class:TQueue	access:private
+TQueue::isEmpty	TQueue.cpp	/^bool TQueue::isEmpty() {$/;"	f	class:TQueue	signature:()
+TQueue::isEmpty	TQueue.h	/^    bool isEmpty();$/;"	p	class:TQueue	access:public	signature:()
+TQueue::pop	TQueue.cpp	/^void TQueue::pop() {$/;"	f	class:TQueue	signature:()
+TQueue::pop	TQueue.h	/^    void pop();$/;"	p	class:TQueue	access:public	signature:()
+TQueue::push	TQueue.cpp	/^void TQueue::push(BNode *x) {$/;"	f	class:TQueue	signature:(BNode *x)
+TQueue::push	TQueue.h	/^	void push(BNode *x);$/;"	p	class:TQueue	access:public	signature:(BNode *x)
+TQueue::s	TQueue.h	/^    int s; \/\/ size of the list$/;"	m	class:TQueue	access:private
+TQueue::top	TQueue.cpp	/^BNode * TQueue::top() {$/;"	f	class:TQueue	signature:()
+TQueue::top	TQueue.h	/^    BNode * top();$/;"	p	class:TQueue	access:public	signature:()
+TQueue::~TQueue	TQueue.cpp	/^TQueue::~TQueue() {$/;"	f	class:TQueue	signature:()
+TQueue::~TQueue	TQueue.h	/^	~TQueue();$/;"	p	class:TQueue	access:public	signature:()
+YANXIA_LAB11_BINOMIALQUEUE_H_	BinomialQueue.h	/^#define YANXIA_LAB11_BINOMIALQUEUE_H_$/;"	d
+YANXIA_LAB11_BNODE_H_	BNode.h	/^#define YANXIA_LAB11_BNODE_H_$/;"	d
+YANXIA_LAB11_TQUEUE_H_	TQueue.h	/^#define YANXIA_LAB11_TQUEUE_H_$/;"	d
+append	BinomialQueue.cpp	/^void BinomialQueue::append(BNode *a) {$/;"	f	class:BinomialQueue	signature:(BNode *a)
+append	BinomialQueue.h	/^    void append(BNode *v);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *v)
+assignX	BinomialQueue.cpp	/^int BinomialQueue::assignX(BNode *t) {$/;"	f	class:BinomialQueue	signature:(BNode *t)
+assignX	BinomialQueue.h	/^    int  assignX(BNode *t);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *t)
+combine	BinomialQueue.cpp	/^void BinomialQueue::combine(BNode *a, BNode *b, BNode *c) {$/;"	f	class:BinomialQueue	signature:(BNode *a, BNode *b, BNode *c)
+combine	BinomialQueue.h	/^    void combine(BNode *v, BNode *w, BNode *c);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *v, BNode *w, BNode *c)
+content	BNode.h	/^    string content;$/;"	m	class:BNode	access:public
+deleteMin	BinomialQueue.cpp	/^int BinomialQueue::deleteMin() {$/;"	f	class:BinomialQueue	signature:()
+deleteMin	BinomialQueue.h	/^	int  deleteMin();$/;"	p	class:BinomialQueue	access:public	signature:()
+f_child	BNode.h	/^                        f_child(NULL), next(NULL), \\$/;"	p	class:BNode	access:public	signature:(NULL)
+f_child	BNode.h	/^    BNode *f_child;$/;"	m	class:BNode	access:public
+findMin	BinomialQueue.cpp	/^int BinomialQueue::findMin() {$/;"	f	class:BinomialQueue	signature:()
+findMin	BinomialQueue.h	/^	int  findMin();$/;"	p	class:BinomialQueue	access:public	signature:()
+first	TQueue.h	/^    BNode *first;$/;"	m	class:TQueue	access:private
+insert	BinomialQueue.cpp	/^void BinomialQueue::insert(int v) {$/;"	f	class:BinomialQueue	signature:(int v)
+insert	BinomialQueue.h	/^	void insert(int v);$/;"	p	class:BinomialQueue	access:public	signature:(int v)
+isEmpty	BinomialQueue.cpp	/^bool BinomialQueue::isEmpty() {$/;"	f	class:BinomialQueue	signature:()
+isEmpty	BinomialQueue.h	/^	bool isEmpty();$/;"	p	class:BinomialQueue	access:public	signature:()
+isEmpty	TQueue.cpp	/^bool TQueue::isEmpty() {$/;"	f	class:TQueue	signature:()
+isEmpty	TQueue.h	/^    bool isEmpty();$/;"	p	class:TQueue	access:public	signature:()
+key	BNode.h	/^    int key;$/;"	m	class:BNode	access:public
+l_sib	BNode.h	/^    BNode *l_sib;$/;"	m	class:BNode	access:public
+len	BNode.h	/^    int len;$/;"	m	class:BNode	access:public
+level	BNode.h	/^    int level;$/;"	m	class:BNode	access:public
+levelOrder	BinomialQueue.cpp	/^void BinomialQueue::levelOrder() {$/;"	f	class:BinomialQueue	signature:()
+levelOrder	BinomialQueue.h	/^    void levelOrder();$/;"	p	class:BinomialQueue	access:public	signature:()
+main	main.cpp	/^int main() {$/;"	f	signature:()
+makeEmpty	BinomialQueue.cpp	/^void BinomialQueue::makeEmpty() {$/;"	f	class:BinomialQueue	signature:()
+makeEmpty	BinomialQueue.cpp	/^void BinomialQueue::makeEmpty(BNode *&t) {$/;"	f	class:BinomialQueue	signature:(BNode *&t)
+makeEmpty	BinomialQueue.h	/^	void makeEmpty();$/;"	p	class:BinomialQueue	access:public	signature:()
+makeEmpty	BinomialQueue.h	/^    void makeEmpty(BNode *&t);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *&t)
+makeSpace	BinomialQueue.cpp	/^string makeSpace(int n) {$/;"	f	signature:(int n)
+meld	BinomialQueue.cpp	/^BNode * BinomialQueue::meld(BNode *a, BNode *b) {$/;"	f	class:BinomialQueue	signature:(BNode *a, BNode *b)
+meld	BinomialQueue.h	/^    BNode * meld(BNode *a, BNode *b);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *a, BNode *b)
+merge	BinomialQueue.cpp	/^void BinomialQueue::merge(BinomialQueue &rhs) {$/;"	f	class:BinomialQueue	signature:(BinomialQueue &rhs)
+merge	BinomialQueue.h	/^    void merge(BinomialQueue &rhs);$/;"	p	class:BinomialQueue	access:public	signature:(BinomialQueue &rhs)
+minTree	BinomialQueue.cpp	/^BNode * BinomialQueue::minTree() {$/;"	f	class:BinomialQueue	signature:()
+minTree	BinomialQueue.h	/^    BNode * minTree();$/;"	p	class:BinomialQueue	access:private	signature:()
+next	BNode.h	/^                        f_child(NULL), next(NULL), \\$/;"	p	class:BNode	access:public	signature:(NULL)
+next	BNode.h	/^    BNode *next;$/;"	m	class:BNode	access:public
+order	BNode.h	/^    int order;$/;"	m	class:BNode	access:public
+pop	TQueue.cpp	/^void TQueue::pop() {$/;"	f	class:TQueue	signature:()
+pop	TQueue.h	/^    void pop();$/;"	p	class:TQueue	access:public	signature:()
+push	TQueue.cpp	/^void TQueue::push(BNode *x) {$/;"	f	class:TQueue	signature:(BNode *x)
+push	TQueue.h	/^	void push(BNode *x);$/;"	p	class:TQueue	access:public	signature:(BNode *x)
+q	BinomialQueue.h	/^    BNode *q;$/;"	m	class:BinomialQueue	access:private
+r_sib	BNode.h	/^    BNode *r_sib;$/;"	m	class:BNode	access:public
+removeTree	BinomialQueue.cpp	/^void BinomialQueue::removeTree(BNode *v, BinomialQueue &Q) {$/;"	f	class:BinomialQueue	signature:(BNode *v, BinomialQueue &Q)
+removeTree	BinomialQueue.h	/^    void removeTree(BNode *v, BinomialQueue &Q);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *v, BinomialQueue &Q)
+reset	BinomialQueue.cpp	/^void BinomialQueue::reset(BNode *t) {$/;"	f	class:BinomialQueue	signature:(BNode *t)
+reset	BinomialQueue.h	/^    void reset(BNode *t);$/;"	p	class:BinomialQueue	access:private	signature:(BNode *t)
+s	TQueue.h	/^    int s; \/\/ size of the list$/;"	m	class:TQueue	access:private
+top	TQueue.cpp	/^BNode * TQueue::top() {$/;"	f	class:TQueue	signature:()
+top	TQueue.h	/^    BNode * top();$/;"	p	class:TQueue	access:public	signature:()
+x	BNode.h	/^    int x;$/;"	m	class:BNode	access:public
+~BinomialQueue	BinomialQueue.cpp	/^BinomialQueue::~BinomialQueue() { makeEmpty(); }$/;"	f	class:BinomialQueue	signature:()
+~BinomialQueue	BinomialQueue.h	/^	~BinomialQueue();$/;"	p	class:BinomialQueue	access:public	signature:()
+~TQueue	TQueue.cpp	/^TQueue::~TQueue() {$/;"	f	class:TQueue	signature:()
+~TQueue	TQueue.h	/^	~TQueue();$/;"	p	class:TQueue	access:public	signature:()
